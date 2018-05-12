@@ -22,6 +22,14 @@ public class Cliente {
     public void setIdcliente(int Idcliente) {
         this.Idcliente = Idcliente;
     }
+
+    public String getNit() {
+        return nit;
+    }
+
+    public void setNit(String nit) {
+        this.nit = nit;
+    }
     
         
 }
