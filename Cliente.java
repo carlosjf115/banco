@@ -31,5 +31,13 @@ public class Cliente {
         this.nit = nit;
     }
     
+    public String getNombrecliente() {
+        return nombrecliente;
+    }
+
+    public void setNombrecliente(String nombrecliente) {
+        this.nombrecliente = nombrecliente;
+    }
+   
         
 }
