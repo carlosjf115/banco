@@ -30,7 +30,10 @@ public class Cliente {
     public void setNombrecliente(String nombrecliente) {
         this.nombrecliente = nombrecliente;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "nombrecliente=" + nombrecliente + ", nit=" + nit + '}';
+    }
         
 }
