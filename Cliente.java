@@ -22,6 +22,15 @@ public class Cliente {
     public void setIdcliente(int Idcliente) {
         this.Idcliente = Idcliente;
     }
+
+    public String getNombrecliente() {
+        return nombrecliente;
+    }
+
+    public void setNombrecliente(String nombrecliente) {
+        this.nombrecliente = nombrecliente;
+    }
+    
     
         
 }
