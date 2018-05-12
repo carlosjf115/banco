@@ -14,7 +14,14 @@ public class Cliente {
         this.nombrecliente = nombrecliente;
         this.nit = nit;
     }
+
+    public int getIdcliente() {
+        return Idcliente;
+    }
+
+    public void setIdcliente(int Idcliente) {
+        this.Idcliente = Idcliente;
+    }
     
-    
-    
+        
 }
